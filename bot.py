@@ -9,7 +9,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from checkWord import checkWord
 import os
 
-API_TOKEN ="1274345437:AAHtgHwhf6HtKagGXuVm19KmZMKeHxmOb4s"
+API_TOKEN = os.getenv("TOKEN")
 
 
 # Configure logging
